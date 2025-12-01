@@ -1,9 +1,9 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint4;
 namespace Tyuiu.ShevchenokSE.Sprint4.Task1.V12.Lib
 {
-    public class DataService : ISprint4Task0V4
+    public class DataService : ISprint4Task1V12 
     {
-        public int GetMultEvenArrEl(int[] array)
+        public int Calculate(int[] array)
         {
             int star = 1;
             for (int i = 0; i < array.Length; i++)

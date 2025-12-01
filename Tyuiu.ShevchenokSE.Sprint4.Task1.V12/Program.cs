@@ -34,7 +34,7 @@ namespace Tyuiu.ShevchenokSE.Sprint4.Task1.V12
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
-            var result = ds.GetMultEvenArrEl(array);
+            var result = ds.Calculate(array);
             Console.WriteLine("Произведение = " + result);
             Console.ReadKey();
         }
