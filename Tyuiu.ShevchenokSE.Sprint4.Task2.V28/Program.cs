@@ -9,7 +9,7 @@ namespace Tyuiu.ShevchenokSE.Sprint4.Task2.V28
             Console.Title = "Спринт #4 | Выполнил: Шевченок С. Е. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Одномерные массивы (Ввод с клавиатуры)                            *");
+            Console.WriteLine("* Тема: Одномерные массивы (Генератор случайных чисел)                    *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #28                                                             *");
             Console.WriteLine("* Выполнил: Шевченок Сергей Евгеньевич | СМАРТб-25-1                      *");
