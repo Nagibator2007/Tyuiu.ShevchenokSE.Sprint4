@@ -15,8 +15,9 @@ namespace Tyuiu.ShevchenokSE.Sprint4.Task4.V13.Lib
                         sum += matrix[i, j];
                     }
                 }
-                return sum;
             }
+
+            return sum;
         }
     }
 }
