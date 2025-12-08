@@ -1,5 +1,5 @@
-﻿using Tyuiu.ShevchenokSE.Sprint4.Task6.V29.Lib;
-namespace Tyuiu.ShevchenokSE.Sprint4.Task6.V29
+﻿using Tyuiu.ShevchenokSE.Sprint4.Task7.V30.Lib;
+namespace Tyuiu.ShevchenokSE.Sprint4.Task7.V30
 {
     internal class Program
     {
@@ -9,26 +9,37 @@ namespace Tyuiu.ShevchenokSE.Sprint4.Task6.V29
             Console.Title = "Спринт #4 | Выполнил: Шевченок С. Е. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Задание #6                                                              *");
-            Console.WriteLine("* Вариант #29                                                             *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #30                                                             *");
             Console.WriteLine("* Выполнил: Шевченок Сергей Евгеньевич | СМАРТб-25-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дан строковый массив данных                                             *");
-            Console.WriteLine("* используя класс Array подсчитайте количество элементов,                 *");
-            Console.WriteLine("* длина которых больше 4.                                                 *");
+            Console.WriteLine("* Дана строка из одноразрядных цифр \"684259137159648\". Преобразуйте её  *");
+            Console.WriteLine("* в матрицу 5 на 3 и подсчитайте произведение четных чисел.               *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Найти слова, содержащие больше 4 букв, в массиве:");
-            Console.WriteLine("\"Весна\", \"Лето\", \"Осень\", \"Зима\"");
+            string value = "684259137159648";
+            int RowsOfArray = 5;
+            int ColumnsOfArray = 3;
+            int index = 0;
+            Console.WriteLine("Массив:");
+            for (int i = 0; i < RowsOfArray; i++)
+            {
+                for (int j = 0; j < ColumnsOfArray; j++)
+                {
+                    Console.Write($"{value[index]}  ");
+                    index++;
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            int Result = ds.Calculate(RowsOfArray, ColumnsOfArray, value);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            string[] array = ["Весна", "Лето", "Осень", "Зима"];
-            int z = ds.Calculate(array);
-            Console.WriteLine(z);
-            Console.ReadKey();
+            Console.WriteLine($" Произведение чётных чисел массива = {Result}");
         }
     }
 }
