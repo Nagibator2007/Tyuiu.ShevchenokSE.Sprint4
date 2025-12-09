@@ -11,7 +11,7 @@ namespace Tyuiu.ShevchenokSE.Sprint4.Task6.V29
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
-            Console.WriteLine("* Выполнил: Шевченок Сергей Евгеньевич | СМАРТб-25-1                      *");
+            Console.WriteLine("* Выполнил: Выполнил: Шевченок Сергей Евгеньевич | СМАРТб-25-1            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан строковый массив данных                                             *");
